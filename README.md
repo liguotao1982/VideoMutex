@@ -10,3 +10,24 @@
    
 2. 通过使用google 提供的mp4v2库文件生成MP4视频文件
    优化：比较完美
+
+调用方法说明：
+1. 方案1调用步骤：
+   1). H264codecEncoder.start();
+       开始创建MP4文件
+   2). H264codecEncoder.addVideo();
+       写入视频数据：此处会等到关键帧才会写入数据
+   3). H264codecEncoder.addAudio();
+       写入视频数据
+   4). H264codecEncoder.destory();
+       结束
+   
+2. 方案2调用步骤：
+   1). VideoMuxer.start();
+       开始创建MP4文件
+   2). VideoMuxer.addVideo();
+       写入视频数据：此处会等到关键帧才会写入数据
+   3). VideoMuxer.addAudio();
+       写入视频数据
+   4). VideoMuxer.stop();
+       结束
