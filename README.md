@@ -25,7 +25,6 @@
 
    4). H264codecEncoder.destory();
        结束
-   https://github.com/liguotao1982/VideoMutex/blob/master/%E6%96%B9%E6%A1%881%E6%95%88%E6%9E%9C%E5%9B%BE.jpg
    
 2. 方案2调用步骤：
    1). VideoMuxer.start();
