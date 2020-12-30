@@ -21,7 +21,7 @@
        写入视频数据：此处会等到关键帧才会写入数据
 
    3). H264codecEncoder.addAudio();
-       写入视频数据
+       写入音频数据
 
    4). H264codecEncoder.destory();
        结束
@@ -34,7 +34,7 @@
        写入视频数据：此处会等到关键帧才会写入数据
        
    3). VideoMuxer.addAudio();
-       写入视频数据
+       写入音频数据
        
    4). VideoMuxer.stop();
        结束
